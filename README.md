@@ -1,8 +1,10 @@
- An interactive Rubik's cube created with pure **CSS3** and **React**.
-Cloned from jithutholoor Repo linked [here](https://github.com/daniloorozco/rubix-cube)
-Repo only consists of intercative cube. I intend to implement a scramble, and solve.
+# Rubiks Cube Simulator
 
-![](../master/readme-img.PNG)
+An interactive Rubik's cube created with pure **CSS3** and **React**.
+Cloned from user jithutholoor. His Repo is linked [here](https://github.com/daniloorozco/rubix-cube).
+The original repo only consists of the interactive cube. I intend to implement a scramble, and solve.  
+
+![](../master/img/readme-img.PNG)
 
 ## Setup
 
@@ -12,4 +14,4 @@ Repo only consists of intercative cube. I intend to implement a scramble, and so
 
 ## Playing
 
-Rotate the entire Rubik’s cube by touching outside the cube or six center cubes. Touch on individual cubes rotate the layers and note center layer is not rotatable.
+Rotate the entire Rubik’s cube by touching outside the cube or six center cubes. Touch on individual cubes rotate the layers. Note center layer is not rotatable.

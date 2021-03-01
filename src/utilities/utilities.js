@@ -23,7 +23,7 @@ export const calcPosition = (position, roationVector, angleOfRotation) => {
     return [x, y, z];
 };
 
-/**Return is new angle of rotatio and rotation vecctor */
+/**Return is new angle of rotation and rotation vecctor */
 export const calculateResultantAngle = (alpha, roationVector, currentRotationVector, beta) => {
 
     const cos = (angle) => (Math.cos(toRadians(angle)));
