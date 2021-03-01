@@ -1,5 +1,6 @@
  An interactive Rubik's cube created with pure **CSS3** and **React**.
-Applicaiton link - https://jithutholoor.github.io/RubixCube/build/
+Cloned from jithutholoor Repo linked [here](https://github.com/daniloorozco/rubix-cube)
+Repo only consists of intercative cube. I intend to implement a scramble, and solve.
 
 ![](../master/readme-img.PNG)
 
