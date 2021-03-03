@@ -1,8 +1,8 @@
 # Rubiks Cube Simulator
 
-An interactive Rubik's cube created with pure **CSS3** and **React**.
-Cloned from user jithutholoor. His Repo is linked [here](https://github.com/daniloorozco/rubix-cube).
-The original repo only consists of the interactive cube. I intend to implement a scramble, and solve.  
+An interactive Rubik's cube created with pure **CSS** and **React.js**.
+Cloned from user jithutholoor. His original Repo is linked [here](https://github.com/daniloorozco/rubix-cube).
+> The original repo only consists of the interactive cube. I intend to implement a scramble, and solve functionality.  
 
 ![](../master/img/readme-img.PNG)
 
