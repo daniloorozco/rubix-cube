@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import { getTouchPositions } from '../utilities/utilities';
 export const cubeWidth = 50;
 export const faceArray = ['front', 'back', 'top', 'bottom', 'left', 'right'];
@@ -14,9 +15,9 @@ export const facePosition = {
 class Cube extends Component {
 
     static propTypes = {
-        faceRotationInit: React.PropTypes.func,
-        translate: React.PropTypes.array,
-        orientation: React.PropTypes.array
+        faceRotationInit: PropTypes.func,
+        translate: PropTypes.array,
+        orientation: PropTypes.array
     };
 
     constructor(props) {
