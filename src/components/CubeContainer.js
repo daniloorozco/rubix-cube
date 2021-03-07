@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Cube, { cubeWidth, facePosition } from './Cube';
+
 import {
     calcPosition,
     calculateResultantAngle,
@@ -273,20 +274,22 @@ class CubeContainer extends Component {
 
     render() {
         return (
-            <div ref={elem => this.elem = elem}
-                className="cube-container"
-                style={{transform:`scale(${this.getScalingFactor()})`}}
-                onMouseDown={this.onTouchStart}
-                onTouchStart={this.onTouchStart}
-                onMouseMove={this.onTouchMove}
-                onTouchMove={this.onTouchMove}>
-                {this.state.positions.map((val, index) => {
-                    return (
-                        <Cube key={index} faceRotationInit={(mousePoint,face)=>{this.faceRotationInit(mousePoint,face,index)}}
-                            translate={this.state.positions[index]} orientation={this.getOrientation(index)} />
-                    )
-                })}
-            </div>
+            
+                <div ref={elem => this.elem = elem}
+                    className="cube-container"
+                    style={{transform:`scale(${this.getScalingFactor()})`}}
+                    onMouseDown={this.onTouchStart}
+                    onTouchStart={this.onTouchStart}
+                    onMouseMove={this.onTouchMove}
+                    onTouchMove={this.onTouchMove}>
+                    {this.state.positions.map((val, index) => {
+                        return (
+                            <Cube key={index} faceRotationInit={(mousePoint,face)=>{this.faceRotationInit(mousePoint,face,index)}}
+                                translate={this.state.positions[index]} orientation={this.getOrientation(index)} />
+                        )
+                    })}
+                </div>
+            
         );
     }
 }

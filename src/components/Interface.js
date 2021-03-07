@@ -24,14 +24,14 @@ class Interface extends Component{
     }
 }
 
-const StyledSection = styled.section `
+const StyledSection = styled.div `
 
     margin: 10px;
+    padding: 50px;
     height: 100%;
     width: 50%;
     position: absolute;
     top: 0;
-    left: 0;
 
 `
 
