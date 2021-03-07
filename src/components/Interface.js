@@ -12,15 +12,12 @@ import {
 class Interface extends Component{
     render(){
         return (
-        <StyledSection className="light-header">
+        <StyledSection>
         
             <h1>Rubiks Cube Simulator</h1>
         
             <Button text="Shuffle"/>
-                
-            
-        
-
+    
         </StyledSection>
         
         );
@@ -29,13 +26,12 @@ class Interface extends Component{
 
 const StyledSection = styled.section `
 
-    'margin': 10,
-    'height': '100%',
-    'backgroundColor': 'lightblue',
-    'width': 500,
-    'position': 'absolute',
-    'top': '0',
-    'left': '0'
+    margin: 10px;
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
 
 `
 
