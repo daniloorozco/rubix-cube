@@ -30,6 +30,8 @@ class Interface extends Component{
     }
 }
 
+/*Typing text animation: https://www.npmjs.com/package/react-typing-animation */
+
 const StyledSection = styled.div `
 
     margin: 10px;
