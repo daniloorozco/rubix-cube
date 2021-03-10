@@ -19,6 +19,10 @@ class Interface extends Component{
             <br/>
             <Button text="Shuffle"/> &nbsp;&nbsp;
             <Button text="Solve"/>
+
+            <p>Click outside of cube to rotate.</p>
+            <p>Click on side of cube to move a side.</p>
+
     
         </StyledSection>
         
@@ -36,7 +40,7 @@ const StyledSection = styled.div `
     top: 0;
 
     h1 {
-        font-size: calc(30px + 1vw);
+        font-size: calc(35px + 1vw);
         position: relative;
         animation: fadeInAnimation ease 1s; 
             animation-iteration-count: 1; 
@@ -47,6 +51,11 @@ const StyledSection = styled.div `
             from {top:0px; opacity: 0;}
             to {top:20px; opacity: 1;}
         } 
+    }
+
+    p {
+        bottom: 20%;
+        position: absolute;
     }
 
 `
