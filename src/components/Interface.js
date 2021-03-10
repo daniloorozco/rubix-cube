@@ -15,8 +15,10 @@ class Interface extends Component{
         <StyledSection>
         
             <h1>Rubiks Cube Simulator</h1>
-        
-            <Button text="Shuffle"/>
+            <br/>
+            <br/>
+            <Button text="Shuffle"/> &nbsp;&nbsp;
+            <Button text="Solve"/>
     
         </StyledSection>
         
@@ -32,6 +34,20 @@ const StyledSection = styled.div `
     width: 50%;
     position: absolute;
     top: 0;
+
+    h1 {
+        font-size: calc(30px + 1vw);
+        position: relative;
+        animation: fadeInAnimation ease 1s; 
+            animation-iteration-count: 1; 
+            
+            animation: fadeInAnimation 1s ease-out forwards;
+        } 
+        @keyframes fadeInAnimation { 
+            from {top:0px; opacity: 0;}
+            to {top:20px; opacity: 1;}
+        } 
+    }
 
 `
 
