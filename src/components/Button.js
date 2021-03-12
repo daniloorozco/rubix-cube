@@ -15,8 +15,10 @@ class Button extends React.Component {
 const StyledButton = styled.button `
     background-color: #ff4081;
     color: white;
+    width: 100px;
+    height: 40px;
     padding: 5px 15px;
-    border-radius: 10px;
+    border-radius: 50px;
     outline: 0;
     text-transform: uppercase;
     box-shadow: 0px 2px 2px lightgray;
