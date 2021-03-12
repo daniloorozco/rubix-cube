@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import Button from './Button';
+import Typing from 'react-typing-animation';
 import Cube, { cubeWidth, facePosition } from './Cube';
 import {
     calcPosition,
@@ -20,9 +21,17 @@ class Interface extends Component{
             <Button text="Shuffle"/> &nbsp;&nbsp;
             <Button text="Solve"/>
 
-            <p>Click outside of cube to rotate.</p>
-            <p>Click on side of cube to move a side.</p>
+            <Typing startDelay={1000}>
+                
+                <p>Click outside of Cube to rotate the whole Cube.</p>
+                <Typing.Delay ms={5000} />
+                <Typing.Backspace count={47} />
+                <p>Click a side of the Cube to move the side.</p>
+                <Typing.Delay ms={5000} />
+                <Typing.Backspace count={51} />
 
+            </Typing>
+           
     
         </StyledSection>
         
