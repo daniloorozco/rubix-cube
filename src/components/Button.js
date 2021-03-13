@@ -14,6 +14,7 @@ class Button extends React.Component {
 
 const StyledButton = styled.button `
     background-color: #ff4081;
+    font-weight: bold;
     color: white;
     width: 100px;
     height: 40px;
