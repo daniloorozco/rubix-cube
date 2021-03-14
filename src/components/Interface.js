@@ -11,6 +11,14 @@ import {
 } from '../utilities/utilities';
 
 class Interface extends Component{
+    solve(){
+        console.log('Solved')
+    }
+
+    shuffle(){
+        console.log('Shuffled')
+    }
+
     render(){
         return (
         <StyledSection>
@@ -18,8 +26,8 @@ class Interface extends Component{
             <h1>Rubiks Cube Simulator</h1>
             <br/>
             <br/>
-            <Button text="Shuffle"/> &nbsp;&nbsp;
-            <Button text="Solve"/>
+            <Button onClick={this.solve} text="Shuffle"/> &nbsp;&nbsp;
+            <Button onClick={this.shuffle} text="Solve"/>
 
             <Typing startDelay={1000}>
                 
