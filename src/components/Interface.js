@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import Button from './Button';
+import Shuffle from './Shuffle';
+import Solve from './Solve';
 import Typing from 'react-typing-animation';
 import Cube, { cubeWidth, facePosition } from './Cube';
 import {
@@ -11,14 +12,7 @@ import {
 } from '../utilities/utilities';
 
 class Interface extends Component{
-    solve(){
-        console.log('Solved')
-    }
-
-    shuffle(){
-        console.log('Shuffled')
-    }
-
+    
     render(){
         return (
         <StyledSection>
@@ -26,8 +20,7 @@ class Interface extends Component{
             <h1>Rubiks Cube Simulator</h1>
             <br/>
             <br/>
-            <Button onClick={this.solve} text="Shuffle"/> &nbsp;&nbsp;
-            <Button onClick={this.shuffle} text="Solve"/>
+            <Shuffle/> &nbsp;&nbsp; <Solve/>
 
             <Typing startDelay={1000}>
                 

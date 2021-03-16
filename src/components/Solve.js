@@ -4,7 +4,7 @@ import Button from './Button';
 function Solve(){
     return(
         <div>
-
+            <Button text="Solve"/>
         </div>
     )
 }
